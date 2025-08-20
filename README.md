@@ -1,16 +1,16 @@
 # CRUD Operations Javascripts
 
-## Basic CRUD Operations
-## Array Manipulation
-## DOM (Document Object Model) Manipulation
-## Basic OOP
+### Basic CRUD Operations
+### Array Manipulation
+### DOM (Document Object Model) Manipulation
+### Basic OOP
 
-### Feature
+#### Feature
 - Create 
 - Update
 - Delete
 
-### Tech
+#### Tech
 - HTML
 - CSS
 - Javascripts
