@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Operations Javascripts</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h3>Barangku</h3>
+        <ul id="daftarBarang"></ul>
+      </div>
+
+
+      <!-- Kanan: Form CRUD -->
+      <div class="container crud-form">
+        <h3>Kelola Barang</h3>
+        <!-- Tambah -->
+        <input type="text" id="namaBarang" placeholder="Masukkan nama barang" />
+        <button onclick="kasir.tambahBarang()">Tambah</button>
+
+        <!-- Hapus -->
+        <input type="text" id="hapusBarang" placeholder="Nama barang yang mau dihapus" />
+        <button onclick="kasir.hapusBarang()">Hapus</button>
+        
+
+        <!-- Update -->
+        <input type="text" id="barangLama" placeholder="Nama barang lama" />
+        <input type="text" id="barangBaru" placeholder="Nama barang baru" />
+        <button onclick="kasir.updateBarang()">Update</button>
+
+        <!-- Hapus Semua Barang -->
+        <button onclick="kasir.hapusSemuaBarang()" style="background-color: red; color: white;">Hapus Semua Barang</button>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
